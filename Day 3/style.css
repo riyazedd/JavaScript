@@ -1,0 +1,65 @@
+body{
+    background: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cal{
+    background-color: red;
+    min-width: 300px;
+    min-height: 300px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+p{
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"]{
+    background: white;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+.first{
+    display: flex;  
+}
+
+.second{
+    display: flex;  
+}
+
+.third{
+    display: flex;  
+}
+
+.fourth{
+    display: flex;  
+}
+
+input[type="button"]{
+    width: 70px;
+    height: 70px;
+    background: gray;
+    margin-top: 15px;
+    /* margin-left: 10px; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+input[type="button"]:hover{
+    background: darkgray;
+}
+

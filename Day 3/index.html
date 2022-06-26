@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>My Calculator</p>
+    <div class="container">
+        <div class="cal">
+            <input type="text" id="edu">
+            <input type="button" value="clear" onclick="clr()" style="width: 100%;">
+            <div class="first">
+                <input type="button" value="7" onclick="dis('7')">
+                <input type="button" value="8" onclick="dis('8')" style="margin-left: 10px;">
+                <input type="button" value="9" onclick="dis('9')" style="margin-left: 10px;">
+                <input type="button" value="/" onclick="dis('/')" style="margin-left: 10px;">
+            </div>
+
+            <div class="second">
+                <input type="button" value="4" onclick="dis('4')">
+                <input type="button" value="5" onclick="dis('5')" style="margin-left: 10px;">
+                <input type="button" value="6" onclick="dis('6')" style="margin-left: 10px;">
+                <input type="button" value="X" onclick="dis('*')" style="margin-left: 10px;">
+            </div>
+
+            <div class="third">
+                <input type="button" value="1" onclick="dis('1')">
+                <input type="button" value="2" onclick="dis('2')" style="margin-left: 10px;">
+                <input type="button" value="3" onclick="dis('3')" style="margin-left: 10px;">
+                <input type="button" value="-" onclick="dis('-')" style="margin-left: 10px;">
+            </div>
+
+            <div class="fourth">
+                <input type="button" value="0" onclick="dis('0')">
+                <input type="button" value="." onclick="dis('.')" style="margin-left: 10px;">
+                <input type="button" value="+" onclick="dis('+')" style="margin-left: 10px;">
+                <input type="button" value="=" onclick="solve()" style="margin-left: 10px;">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js1/custom.js"></script>
+</body>
+</html>
